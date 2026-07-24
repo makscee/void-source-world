@@ -1,0 +1,37 @@
+{
+  "chronicle": "Turn 1: Created assertion-0001-01 with Weight 12.",
+  "raw_resolved_orders": [
+    {
+      "mage_id": "mage-1",
+      "text": "Raise a glass arch",
+      "thought": 12,
+      "words": 18
+    }
+  ],
+  "receipt": {
+    "chronicle_tokens": 49,
+    "constructive_weight": 12,
+    "fixed_overhead_tokens": 12,
+    "new_hands": 10,
+    "old_hands": 40,
+    "output_tokens": 116,
+    "player_words": 18,
+    "selected_context_tokens": 601,
+    "thought_reserved_and_charged": 12,
+    "tokenizer": "utf8-byte-v1",
+    "unused_thought_sink": 0,
+    "words_charged": 18
+  },
+  "schema": "vsg.turn.v1",
+  "semantic": {
+    "actions": [
+      {
+        "kind": "create",
+        "text": "Mage shaped assertion beed6e8fcb05.",
+        "thought": 12
+      }
+    ],
+    "schema": "vsg.semantic.v1"
+  },
+  "turn": 1
+}

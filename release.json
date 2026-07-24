@@ -1,0 +1,5 @@
+{
+  "schema": "vsg.release.v1",
+  "source_repository": "https://github.com/makscee/void-source-game",
+  "source_commit": "20889bb0827821e8c29c88b369a4f757f910681c"
+}

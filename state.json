@@ -1,0 +1,80 @@
+{
+  "assertions": [
+    {
+      "controller": "mage-1",
+      "id": "assertion-0001-01",
+      "imbuement": 12,
+      "last_used_turn": 1,
+      "place": "source",
+      "provenance": {
+        "turn": 1
+      },
+      "provenance_turn": 1,
+      "status": "active",
+      "text": "Mage shaped assertion beed6e8fcb05.",
+      "weight": 12
+    }
+  ],
+  "frontiers": {},
+  "laws": [],
+  "legends": [],
+  "mages": {
+    "mage-1": {
+      "controlled_imbuement": 12,
+      "hands": 10,
+      "last_consequence": "Created assertion-0001-01 with Weight 12.",
+      "name": "First Mage",
+      "place": "source",
+      "telegram_user_id": 9
+    },
+    "mage-2": {
+      "active": true,
+      "controlled_imbuement": 0,
+      "form": 20,
+      "hands": 80,
+      "hands_expires_turn": 1,
+      "last_consequence": "None yet — genesis.",
+      "name": "Second Mage",
+      "place": "source",
+      "returns_turn": null,
+      "telegram_user_id": 10
+    },
+    "mage-3": {
+      "active": true,
+      "controlled_imbuement": 0,
+      "form": 20,
+      "hands": 80,
+      "hands_expires_turn": 1,
+      "last_consequence": "None yet — genesis.",
+      "name": "Third Mage",
+      "place": "source",
+      "returns_turn": null,
+      "telegram_user_id": 11
+    }
+  },
+  "places": {
+    "source": {
+      "ambient": 100,
+      "canon": "The Source",
+      "danger": "The Void remains uncertain.",
+      "exits": [
+        "void-frontier"
+      ],
+      "feature": "The Source",
+      "id": "source",
+      "name": "The Source",
+      "provenance_turn": 0,
+      "visible": [
+        "The Source",
+        "an unwritten Void exit"
+      ]
+    }
+  },
+  "schema": "vsg.world.v3",
+  "source": {
+    "ambient": 100,
+    "id": "source",
+    "pulse": "not implemented in VSG-1"
+  },
+  "turn": 1
+}

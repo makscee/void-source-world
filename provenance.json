@@ -1,0 +1,15 @@
+{
+  "assertions": {
+    "assertion-0001-01": {
+      "turn": 1
+    }
+  },
+  "laws": {},
+  "places": {
+    "source": {
+      "provenance_turn": 0
+    }
+  },
+  "schema": "vsg.provenance.v1",
+  "turn": 1
+}
