@@ -6,7 +6,7 @@
       "draw": 0,
       "id": "assertion-0001-01",
       "imbuement": 12,
-      "last_used_turn": 5,
+      "last_used_turn": 6,
       "ownership_weight": 12,
       "place": "source",
       "provenance": {
@@ -23,7 +23,7 @@
       "draw": 0,
       "id": "assertion-0003-02",
       "imbuement": 5,
-      "last_used_turn": 3,
+      "last_used_turn": 6,
       "ownership_weight": 5,
       "place": "place-12bc5c9f1f5d",
       "provenance": {
@@ -57,7 +57,7 @@
       "controlled_imbuement": 12,
       "form": 20,
       "hands": 30,
-      "hands_expires_turn": 6,
+      "hands_expires_turn": 7,
       "last_consequence": "Created assertion-0001-01 with Weight 12.",
       "name": "First Mage",
       "place": "source",
@@ -69,10 +69,10 @@
       "controlled_imbuement": 5,
       "form": 20,
       "hands": 30,
-      "hands_expires_turn": 6,
-      "last_consequence": "mage-2 attempt failed: The attempt failed because its intended target or relation was not possible in the sealed world.",
+      "hands_expires_turn": 7,
+      "last_consequence": "mage-2 moved to place-12bc5c9f1f5d.",
       "name": "Maks",
-      "place": "place-59ecd093c32d",
+      "place": "place-12bc5c9f1f5d",
       "returns_turn": null,
       "telegram_user_id": 193835258
     },
@@ -81,7 +81,7 @@
       "controlled_imbuement": 0,
       "form": 20,
       "hands": 30,
-      "hands_expires_turn": 6,
+      "hands_expires_turn": 7,
       "last_consequence": "None yet — genesis.",
       "name": "Third Mage",
       "place": "source",
@@ -91,7 +91,7 @@
   },
   "places": {
     "place-12bc5c9f1f5d": {
-      "ambient": 14,
+      "ambient": 11,
       "canon": "A vast emptiness beyond the Source.",
       "danger": "Unseen forces drift in the darkness.",
       "exits": [
@@ -129,7 +129,7 @@
       "weight": 10
     },
     "source": {
-      "ambient": 1595,
+      "ambient": 2065,
       "canon": "The Source",
       "danger": "The Void remains uncertain.",
       "exits": [
@@ -147,11 +147,11 @@
   },
   "schema": "vsg.world.v3",
   "source": {
-    "ambient": 2065,
+    "ambient": 2538,
     "genesis_supply": 270,
     "id": "source",
-    "minted_total": 2000,
+    "minted_total": 2500,
     "pulse": 500
   },
-  "turn": 5
+  "turn": 6
 }
