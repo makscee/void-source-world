@@ -1,10 +1,13 @@
 {
   "assertions": [
     {
+      "carried_by": null,
       "controller": "mage-1",
+      "draw": 0,
       "id": "assertion-0001-01",
       "imbuement": 12,
-      "last_used_turn": 1,
+      "last_used_turn": 2,
+      "ownership_weight": 12,
       "place": "source",
       "provenance": {
         "turn": 1
@@ -15,36 +18,52 @@
       "weight": 12
     }
   ],
-  "frontiers": {},
+  "economy": {
+    "admission_cap": 10,
+    "drain_rate": 10,
+    "draw_ratio": 5,
+    "form_baseline": 20,
+    "grace_floor": 30,
+    "grasp_rate": 3,
+    "hands_capacity": 80,
+    "source_pulse": 500
+  },
+  "frontiers": {
+    "void-frontier": "place-12bc5c9f1f5d"
+  },
   "laws": [],
   "legends": [],
   "mages": {
     "mage-1": {
+      "active": true,
       "controlled_imbuement": 12,
-      "hands": 10,
+      "form": 20,
+      "hands": 30,
+      "hands_expires_turn": 3,
       "last_consequence": "Created assertion-0001-01 with Weight 12.",
       "name": "First Mage",
       "place": "source",
+      "returns_turn": null,
       "telegram_user_id": 9
     },
     "mage-2": {
       "active": true,
       "controlled_imbuement": 0,
       "form": 20,
-      "hands": 80,
-      "hands_expires_turn": 1,
-      "last_consequence": "None yet — genesis.",
-      "name": "Second Mage",
-      "place": "source",
+      "hands": 30,
+      "hands_expires_turn": 3,
+      "last_consequence": "mage-2 explored void-frontier; shared Place place-12bc5c9f1f5d became canon with 12 Weight.",
+      "name": "Maks",
+      "place": "place-12bc5c9f1f5d",
       "returns_turn": null,
-      "telegram_user_id": 10
+      "telegram_user_id": 193835258
     },
     "mage-3": {
       "active": true,
       "controlled_imbuement": 0,
       "form": 20,
-      "hands": 80,
-      "hands_expires_turn": 1,
+      "hands": 30,
+      "hands_expires_turn": 3,
       "last_consequence": "None yet — genesis.",
       "name": "Third Mage",
       "place": "source",
@@ -53,12 +72,31 @@
     }
   },
   "places": {
+    "place-12bc5c9f1f5d": {
+      "ambient": 0,
+      "canon": "A vast emptiness beyond the Source.",
+      "danger": "Unseen forces drift in the darkness.",
+      "exits": [
+        "source",
+        "onward-12bc5c9f1f5d"
+      ],
+      "feature": "A dim path through the void.",
+      "id": "place-12bc5c9f1f5d",
+      "last_used_turn": 2,
+      "name": "The Void",
+      "provenance_turn": 2,
+      "visible": [
+        "A dim path through the void.",
+        "Unseen forces drift in the darkness."
+      ],
+      "weight": 12
+    },
     "source": {
       "ambient": 100,
       "canon": "The Source",
       "danger": "The Void remains uncertain.",
       "exits": [
-        "void-frontier"
+        "place-12bc5c9f1f5d"
       ],
       "feature": "The Source",
       "id": "source",
@@ -72,9 +110,11 @@
   },
   "schema": "vsg.world.v3",
   "source": {
-    "ambient": 100,
+    "ambient": 655,
+    "genesis_supply": 270,
     "id": "source",
-    "pulse": "not implemented in VSG-1"
+    "minted_total": 500,
+    "pulse": 500
   },
-  "turn": 1
+  "turn": 2
 }
