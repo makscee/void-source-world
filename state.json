@@ -6,7 +6,7 @@
       "draw": 0,
       "id": "assertion-0001-01",
       "imbuement": 12,
-      "last_used_turn": 2,
+      "last_used_turn": 3,
       "ownership_weight": 12,
       "place": "source",
       "provenance": {
@@ -16,6 +16,19 @@
       "status": "active",
       "text": "Mage shaped assertion beed6e8fcb05.",
       "weight": 12
+    },
+    {
+      "carried_by": null,
+      "controller": "mage-2",
+      "draw": 0,
+      "id": "assertion-0003-02",
+      "imbuement": 5,
+      "last_used_turn": 3,
+      "ownership_weight": 5,
+      "place": "place-12bc5c9f1f5d",
+      "provenance_turn": 3,
+      "text": "Maks shapes a resonant bell from the substance of the Void.",
+      "weight": 5
     }
   ],
   "economy": {
@@ -39,7 +52,7 @@
       "controlled_imbuement": 12,
       "form": 20,
       "hands": 30,
-      "hands_expires_turn": 3,
+      "hands_expires_turn": 4,
       "last_consequence": "Created assertion-0001-01 with Weight 12.",
       "name": "First Mage",
       "place": "source",
@@ -48,11 +61,11 @@
     },
     "mage-2": {
       "active": true,
-      "controlled_imbuement": 0,
+      "controlled_imbuement": 5,
       "form": 20,
       "hands": 30,
-      "hands_expires_turn": 3,
-      "last_consequence": "mage-2 explored void-frontier; shared Place place-12bc5c9f1f5d became canon with 12 Weight.",
+      "hands_expires_turn": 4,
+      "last_consequence": "mage-2 created assertion-0003-02 with 5 Weight.",
       "name": "Maks",
       "place": "place-12bc5c9f1f5d",
       "returns_turn": null,
@@ -63,7 +76,7 @@
       "controlled_imbuement": 0,
       "form": 20,
       "hands": 30,
-      "hands_expires_turn": 3,
+      "hands_expires_turn": 4,
       "last_consequence": "None yet — genesis.",
       "name": "Third Mage",
       "place": "source",
@@ -73,7 +86,7 @@
   },
   "places": {
     "place-12bc5c9f1f5d": {
-      "ambient": 0,
+      "ambient": 14,
       "canon": "A vast emptiness beyond the Source.",
       "danger": "Unseen forces drift in the darkness.",
       "exits": [
@@ -92,7 +105,7 @@
       "weight": 12
     },
     "source": {
-      "ambient": 100,
+      "ambient": 655,
       "canon": "The Source",
       "danger": "The Void remains uncertain.",
       "exits": [
@@ -110,11 +123,11 @@
   },
   "schema": "vsg.world.v3",
   "source": {
-    "ambient": 655,
+    "ambient": 1125,
     "genesis_supply": 270,
     "id": "source",
-    "minted_total": 500,
+    "minted_total": 1000,
     "pulse": 500
   },
-  "turn": 2
+  "turn": 3
 }

@@ -2,6 +2,9 @@
   "assertions": {
     "assertion-0001-01": {
       "turn": 1
+    },
+    "assertion-0003-02": {
+      "turn": 3
     }
   },
   "laws": {},
@@ -14,5 +17,5 @@
     }
   },
   "schema": "vsg.provenance.v1",
-  "turn": 2
+  "turn": 3
 }
