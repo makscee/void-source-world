@@ -1,0 +1,153 @@
+{
+  "chronicle": "Turn 4: mage-2: mage-2 explored onward-12bc5c9f1f5d; shared Place place-59ecd093c32d became canon with 10 Weight.",
+  "operation_id": "2d6922279bfa4a8282f3ea9b50cbe61e",
+  "raw_resolved_orders": [
+    {
+      "mage_id": "mage-2",
+      "text": "Follow the dim path.",
+      "thought": 10,
+      "words": 20
+    }
+  ],
+  "receipt": {
+    "aggregate_thought_reserved": 10,
+    "chronicle_beat_escaped_content_tokens": 113,
+    "chronicle_framing_tokens": 21,
+    "chronicle_record_tokens": 134,
+    "chronicle_tokens": 113,
+    "consumed_fixed_overhead_tokens": {
+      "aggregate_request_framing": 211,
+      "chronicle_record_framing": 21
+    },
+    "consumed_fixed_overhead_tokens_total": 232,
+    "economy": {
+      "draw_claims": {},
+      "draw_payouts": {},
+      "events": [
+        "mage-2 explored onward-12bc5c9f1f5d; shared Place place-59ecd093c32d became canon with 10 Weight."
+      ],
+      "grace_reserve": 300,
+      "remanifestation_from_pulse": 0,
+      "source_pulse_minted": 500,
+      "source_surplus_to_ambient": 416,
+      "thought_disposition_totals": {
+        "canceled_thought": 0,
+        "constructive_weight": 10,
+        "destructive_surplus_sink": 0,
+        "drain_thought_sink": 0,
+        "thought_reserved_and_charged": 10,
+        "unused_thought_sink": 0
+      }
+    },
+    "model_output_cap_allowance_tokens": 512,
+    "model_output_token_cap": 522,
+    "model_output_tokens": 397,
+    "model_request_framing_tokens": 211,
+    "model_request_payload_tokens": {
+      "order_text_escaped_content": {
+        "mage-2": 20
+      },
+      "selected_context_escaped_content": {
+        "mage-2": 892
+      }
+    },
+    "model_request_payload_tokens_total": 912,
+    "model_request_reconciled_tokens": 1123,
+    "model_request_serialization": "canonical-json-utf8-v1",
+    "model_request_tokens": 1123,
+    "per_mage_accounting": {
+      "mage-1": {
+        "canceled_thought": 0,
+        "constructive_weight": 0,
+        "destructive_surplus_sink": 0,
+        "drain_thought_sink": 0,
+        "drained": 0,
+        "grace": 27,
+        "grasped": 3,
+        "new_hands": 30,
+        "old_hands": 30,
+        "old_hands_leaked": 30,
+        "thought_reserved_and_charged": 0,
+        "unused_thought_sink": 0,
+        "words_charged": 0
+      },
+      "mage-2": {
+        "canceled_thought": 0,
+        "constructive_weight": 10,
+        "destructive_surplus_sink": 0,
+        "drain_thought_sink": 0,
+        "drained": 0,
+        "grace": 30,
+        "grasped": 0,
+        "new_hands": 30,
+        "old_hands": 30,
+        "old_hands_leaked": 0,
+        "thought_reserved_and_charged": 10,
+        "unused_thought_sink": 0,
+        "words_charged": 20
+      },
+      "mage-3": {
+        "canceled_thought": 0,
+        "constructive_weight": 0,
+        "destructive_surplus_sink": 0,
+        "drain_thought_sink": 0,
+        "drained": 0,
+        "grace": 27,
+        "grasped": 3,
+        "new_hands": 30,
+        "old_hands": 30,
+        "old_hands_leaked": 30,
+        "thought_reserved_and_charged": 0,
+        "unused_thought_sink": 0,
+        "words_charged": 0
+      }
+    },
+    "player_words": {
+      "mage-2": 20
+    },
+    "player_words_total": 20,
+    "ranking": [
+      "mage-1",
+      "mage-2",
+      "mage-3"
+    ],
+    "selected_context_ceiling_per_mage": 2048,
+    "selected_context_provenance": {
+      "mage-2": [
+        "assertion:assertion-0003-02"
+      ]
+    },
+    "selected_context_tokens": {
+      "mage-2": 792
+    },
+    "selected_context_tokens_total": 792,
+    "tokenizer": "utf8-byte-v1"
+  },
+  "schema": "vsg.turn.v2",
+  "semantic": {
+    "outcomes": [
+      {
+        "actions": [
+          {
+            "canon": "A faint trail winding deeper into the Void.",
+            "danger": "Unseen forces gather beyond the path's edge.",
+            "feature": "A wavering glimmer marks the way forward.",
+            "frontier": "onward-12bc5c9f1f5d",
+            "kind": "explore",
+            "name": "The Dim Path",
+            "onward": "The path continues into deeper darkness.",
+            "thought": 10
+          }
+        ],
+        "mage_id": "mage-2",
+        "status": "accepted"
+      }
+    ],
+    "schema": "vsg.semantic.v2"
+  },
+  "turn": 4,
+  "window": {
+    "closes_at": 1784999143.9944007,
+    "opened_at": 1784997943.9944007
+  }
+}

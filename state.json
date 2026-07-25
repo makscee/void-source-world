@@ -6,7 +6,7 @@
       "draw": 0,
       "id": "assertion-0001-01",
       "imbuement": 12,
-      "last_used_turn": 3,
+      "last_used_turn": 4,
       "ownership_weight": 12,
       "place": "source",
       "provenance": {
@@ -26,7 +26,11 @@
       "last_used_turn": 3,
       "ownership_weight": 5,
       "place": "place-12bc5c9f1f5d",
+      "provenance": {
+        "turn": 3
+      },
       "provenance_turn": 3,
+      "status": "active",
       "text": "Maks shapes a resonant bell from the substance of the Void.",
       "weight": 5
     }
@@ -42,6 +46,7 @@
     "source_pulse": 500
   },
   "frontiers": {
+    "onward-12bc5c9f1f5d": "place-59ecd093c32d",
     "void-frontier": "place-12bc5c9f1f5d"
   },
   "laws": [],
@@ -52,7 +57,7 @@
       "controlled_imbuement": 12,
       "form": 20,
       "hands": 30,
-      "hands_expires_turn": 4,
+      "hands_expires_turn": 5,
       "last_consequence": "Created assertion-0001-01 with Weight 12.",
       "name": "First Mage",
       "place": "source",
@@ -64,10 +69,10 @@
       "controlled_imbuement": 5,
       "form": 20,
       "hands": 30,
-      "hands_expires_turn": 4,
-      "last_consequence": "mage-2 created assertion-0003-02 with 5 Weight.",
+      "hands_expires_turn": 5,
+      "last_consequence": "mage-2 explored onward-12bc5c9f1f5d; shared Place place-59ecd093c32d became canon with 10 Weight.",
       "name": "Maks",
-      "place": "place-12bc5c9f1f5d",
+      "place": "place-59ecd093c32d",
       "returns_turn": null,
       "telegram_user_id": 193835258
     },
@@ -76,7 +81,7 @@
       "controlled_imbuement": 0,
       "form": 20,
       "hands": 30,
-      "hands_expires_turn": 4,
+      "hands_expires_turn": 5,
       "last_consequence": "None yet — genesis.",
       "name": "Third Mage",
       "place": "source",
@@ -91,7 +96,7 @@
       "danger": "Unseen forces drift in the darkness.",
       "exits": [
         "source",
-        "onward-12bc5c9f1f5d"
+        "place-59ecd093c32d"
       ],
       "feature": "A dim path through the void.",
       "id": "place-12bc5c9f1f5d",
@@ -104,8 +109,27 @@
       ],
       "weight": 12
     },
+    "place-59ecd093c32d": {
+      "ambient": 0,
+      "canon": "A faint trail winding deeper into the Void.",
+      "danger": "Unseen forces gather beyond the path's edge.",
+      "exits": [
+        "place-12bc5c9f1f5d",
+        "The path continues into deeper darkness."
+      ],
+      "feature": "A wavering glimmer marks the way forward.",
+      "id": "place-59ecd093c32d",
+      "last_used_turn": 4,
+      "name": "The Dim Path",
+      "provenance_turn": 4,
+      "visible": [
+        "A wavering glimmer marks the way forward.",
+        "Unseen forces gather beyond the path's edge."
+      ],
+      "weight": 10
+    },
     "source": {
-      "ambient": 655,
+      "ambient": 1125,
       "canon": "The Source",
       "danger": "The Void remains uncertain.",
       "exits": [
@@ -123,11 +147,11 @@
   },
   "schema": "vsg.world.v3",
   "source": {
-    "ambient": 1125,
+    "ambient": 1595,
     "genesis_supply": 270,
     "id": "source",
-    "minted_total": 1000,
+    "minted_total": 1500,
     "pulse": 500
   },
-  "turn": 3
+  "turn": 4
 }
