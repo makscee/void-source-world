@@ -6,7 +6,7 @@
       "draw": 0,
       "id": "assertion-0001-01",
       "imbuement": 12,
-      "last_used_turn": 4,
+      "last_used_turn": 5,
       "ownership_weight": 12,
       "place": "source",
       "provenance": {
@@ -57,7 +57,7 @@
       "controlled_imbuement": 12,
       "form": 20,
       "hands": 30,
-      "hands_expires_turn": 5,
+      "hands_expires_turn": 6,
       "last_consequence": "Created assertion-0001-01 with Weight 12.",
       "name": "First Mage",
       "place": "source",
@@ -69,8 +69,8 @@
       "controlled_imbuement": 5,
       "form": 20,
       "hands": 30,
-      "hands_expires_turn": 5,
-      "last_consequence": "mage-2 explored onward-12bc5c9f1f5d; shared Place place-59ecd093c32d became canon with 10 Weight.",
+      "hands_expires_turn": 6,
+      "last_consequence": "mage-2 attempt failed: The attempt failed because its intended target or relation was not possible in the sealed world.",
       "name": "Maks",
       "place": "place-59ecd093c32d",
       "returns_turn": null,
@@ -81,7 +81,7 @@
       "controlled_imbuement": 0,
       "form": 20,
       "hands": 30,
-      "hands_expires_turn": 5,
+      "hands_expires_turn": 6,
       "last_consequence": "None yet — genesis.",
       "name": "Third Mage",
       "place": "source",
@@ -129,7 +129,7 @@
       "weight": 10
     },
     "source": {
-      "ambient": 1125,
+      "ambient": 1595,
       "canon": "The Source",
       "danger": "The Void remains uncertain.",
       "exits": [
@@ -147,11 +147,11 @@
   },
   "schema": "vsg.world.v3",
   "source": {
-    "ambient": 1595,
+    "ambient": 2065,
     "genesis_supply": 270,
     "id": "source",
-    "minted_total": 1500,
+    "minted_total": 2000,
     "pulse": 500
   },
-  "turn": 4
+  "turn": 5
 }

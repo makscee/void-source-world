@@ -18,5 +18,5 @@ A faint trail winding deeper into the Void.
 The Source
 - Exits: place-12bc5c9f1f5d
 - Mages: mage-1, mage-3
-- Ambient: 1595
+- Ambient: 2065
 - Provenance turn: 0
