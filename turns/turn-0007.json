@@ -1,0 +1,149 @@
+{
+  "chronicle": "Turn 7: mage-2: mage-2 moved to place-59ecd093c32d.",
+  "operation_id": "704016a4a02a47d295f7d7b7580b0f34",
+  "raw_resolved_orders": [
+    {
+      "mage_id": "mage-2",
+      "text": "Follow the Dim Path.",
+      "thought": 10,
+      "words": 20
+    }
+  ],
+  "receipt": {
+    "aggregate_thought_reserved": 10,
+    "chronicle_beat_escaped_content_tokens": 51,
+    "chronicle_framing_tokens": 21,
+    "chronicle_record_tokens": 72,
+    "chronicle_tokens": 51,
+    "consumed_fixed_overhead_tokens": {
+      "aggregate_request_framing": 211,
+      "chronicle_record_framing": 21
+    },
+    "consumed_fixed_overhead_tokens_total": 232,
+    "economy": {
+      "draw_claims": {},
+      "draw_payouts": {},
+      "events": [
+        "mage-2 moved to place-59ecd093c32d."
+      ],
+      "grace_reserve": 300,
+      "remanifestation_from_pulse": 0,
+      "source_pulse_minted": 500,
+      "source_surplus_to_ambient": 416,
+      "thought_disposition_totals": {
+        "canceled_thought": 0,
+        "constructive_weight": 0,
+        "destructive_surplus_sink": 1,
+        "drain_thought_sink": 0,
+        "thought_reserved_and_charged": 10,
+        "unused_thought_sink": 9
+      }
+    },
+    "model_output_cap_allowance_tokens": 512,
+    "model_output_token_cap": 522,
+    "model_output_tokens": 204,
+    "model_request_framing_tokens": 211,
+    "model_request_payload_tokens": {
+      "order_text_escaped_content": {
+        "mage-2": 20
+      },
+      "selected_context_escaped_content": {
+        "mage-2": 879
+      }
+    },
+    "model_request_payload_tokens_total": 899,
+    "model_request_reconciled_tokens": 1110,
+    "model_request_serialization": "canonical-json-utf8-v1",
+    "model_request_tokens": 1110,
+    "per_mage_accounting": {
+      "mage-1": {
+        "canceled_thought": 0,
+        "constructive_weight": 0,
+        "destructive_surplus_sink": 0,
+        "drain_thought_sink": 0,
+        "drained": 0,
+        "grace": 27,
+        "grasped": 3,
+        "new_hands": 30,
+        "old_hands": 30,
+        "old_hands_leaked": 30,
+        "thought_reserved_and_charged": 0,
+        "unused_thought_sink": 0,
+        "words_charged": 0
+      },
+      "mage-2": {
+        "canceled_thought": 0,
+        "constructive_weight": 0,
+        "destructive_surplus_sink": 1,
+        "drain_thought_sink": 0,
+        "drained": 0,
+        "grace": 30,
+        "grasped": 0,
+        "new_hands": 30,
+        "old_hands": 30,
+        "old_hands_leaked": 0,
+        "thought_reserved_and_charged": 10,
+        "unused_thought_sink": 9,
+        "words_charged": 20
+      },
+      "mage-3": {
+        "canceled_thought": 0,
+        "constructive_weight": 0,
+        "destructive_surplus_sink": 0,
+        "drain_thought_sink": 0,
+        "drained": 0,
+        "grace": 27,
+        "grasped": 3,
+        "new_hands": 30,
+        "old_hands": 30,
+        "old_hands_leaked": 30,
+        "thought_reserved_and_charged": 0,
+        "unused_thought_sink": 0,
+        "words_charged": 0
+      }
+    },
+    "player_words": {
+      "mage-2": 20
+    },
+    "player_words_total": 20,
+    "ranking": [
+      "mage-1",
+      "mage-2",
+      "mage-3"
+    ],
+    "selected_context_ceiling_per_mage": 2048,
+    "selected_context_provenance": {
+      "mage-2": [
+        "assertion:assertion-0003-02"
+      ]
+    },
+    "selected_context_tokens": {
+      "mage-2": 779
+    },
+    "selected_context_tokens_total": 779,
+    "tokenizer": "utf8-byte-v1"
+  },
+  "schema": "vsg.turn.v2",
+  "semantic": {
+    "outcomes": [
+      {
+        "actions": [
+          {
+            "destination": "place-59ecd093c32d",
+            "kind": "move",
+            "text": "Follow the dim path through the Void.",
+            "thought": 1
+          }
+        ],
+        "mage_id": "mage-2",
+        "status": "accepted"
+      }
+    ],
+    "schema": "vsg.semantic.v2"
+  },
+  "turn": 7,
+  "window": {
+    "closes_at": 1785016726.9287777,
+    "opened_at": 1785015526.9287777
+  }
+}

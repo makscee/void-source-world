@@ -6,7 +6,7 @@
       "draw": 0,
       "id": "assertion-0001-01",
       "imbuement": 12,
-      "last_used_turn": 6,
+      "last_used_turn": 7,
       "ownership_weight": 12,
       "place": "source",
       "provenance": {
@@ -57,7 +57,7 @@
       "controlled_imbuement": 12,
       "form": 20,
       "hands": 30,
-      "hands_expires_turn": 7,
+      "hands_expires_turn": 8,
       "last_consequence": "Created assertion-0001-01 with Weight 12.",
       "name": "First Mage",
       "place": "source",
@@ -69,10 +69,10 @@
       "controlled_imbuement": 5,
       "form": 20,
       "hands": 30,
-      "hands_expires_turn": 7,
-      "last_consequence": "mage-2 moved to place-12bc5c9f1f5d.",
+      "hands_expires_turn": 8,
+      "last_consequence": "mage-2 moved to place-59ecd093c32d.",
       "name": "Maks",
-      "place": "place-12bc5c9f1f5d",
+      "place": "place-59ecd093c32d",
       "returns_turn": null,
       "telegram_user_id": 193835258
     },
@@ -81,7 +81,7 @@
       "controlled_imbuement": 0,
       "form": 20,
       "hands": 30,
-      "hands_expires_turn": 7,
+      "hands_expires_turn": 8,
       "last_consequence": "None yet — genesis.",
       "name": "Third Mage",
       "place": "source",
@@ -129,7 +129,7 @@
       "weight": 10
     },
     "source": {
-      "ambient": 2065,
+      "ambient": 2538,
       "canon": "The Source",
       "danger": "The Void remains uncertain.",
       "exits": [
@@ -147,11 +147,11 @@
   },
   "schema": "vsg.world.v3",
   "source": {
-    "ambient": 2538,
+    "ambient": 3008,
     "genesis_supply": 270,
     "id": "source",
-    "minted_total": 2500,
+    "minted_total": 3000,
     "pulse": 500
   },
-  "turn": 6
+  "turn": 7
 }
